@@ -8,10 +8,13 @@ import Testimonials from './components/Testimonials';
 
 // import logo from './logo.svg';
 import './App.css';
+import './index.css';
+// import '@heroicons/react';
 
 
 function App() {
   return (
+    // <main className="text-gray-400 bg-gray-900 body-font">
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
