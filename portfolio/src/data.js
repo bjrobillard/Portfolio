@@ -36,7 +36,12 @@ export const projects = [
 ];
 
 export const skills = [
-    "some skill"
+  "C++",
+  "Javascript",
+  "Python", 
+  "HTML",
+  "React",
+  
 ];
 
 export const testimonials = [

@@ -2,6 +2,7 @@
 
 import React from "react";
 // import '@heroicons/react';
+import "@heroicons/react/solid";
 
 export default function About() {
   return (
@@ -13,7 +14,9 @@ export default function About() {
             <br className="hidden lg:inline-block" /> 
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a Colorado Mesa University Alumni and I'm a Bachelor of Science in Computer Science. A little bit more about me: I'm a Colorado Native, on my free time I like to snowboard and hike 
+            I'm a Colorado Mesa University Alumni and have a Bachelor of Science in Computer Science.
+            A little bit more about me: I'm a Colorado Native, on my free time I like to snowboard, hike, and spend time with
+            my family and friends. 
           </p>
           <div className="flex justify-center">
             <a
@@ -28,13 +31,13 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

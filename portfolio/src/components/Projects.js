@@ -12,9 +12,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Below are a some of the projects I've worked on during my time at CMU. They consist of work with Object Oriented Programming, 
+            UI/UX work, expierence with .......
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
