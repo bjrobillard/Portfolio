@@ -32,22 +32,13 @@ export default function About() {
           </div>
         </div>
 
-        <div>
-          <div>
+        <div >
             <img 
               className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
               alt="Hiking Pic"
               src="./images/portfolioPic.JPG"
             />
-          </div>
         </div>
-        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
-          />
-        </div> no need for this*/}
       </div>
     </section>
   );
