@@ -1,5 +1,7 @@
 // src/components/Contact.js
 
+// add onclick function to button or just leave phone and email for them to use at their discretion
+
 import React from "react";
 
 export default function Contact() {
@@ -48,10 +50,10 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Contact Information
           </h2>
           <p className="leading-relaxed mb-5">
-            Please leave your name, email, and a message about a job oportunity that I would be a good fit for!
+            Please leave your name, email, and a any questions you may have regarding my resume or past work expierence!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -98,7 +100,8 @@ export default function Contact() {
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <button
+          
+          <button 
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit

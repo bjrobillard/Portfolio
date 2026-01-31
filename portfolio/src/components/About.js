@@ -15,8 +15,8 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a Colorado Mesa University Alumni and have a Bachelor of Science in Computer Science.
-            A little bit more about me: I'm a Colorado Native, on my free time I like to snowboard, hike, and spend time with
-            my family and friends. 
+            I enjoy spending time with friends and family and continuing my learning within the tech industry. I'm currently employed at Homegoods 
+            as their Backroom Coordinator and have expierence working in the IT department at Flex Energy Solutions as an Intern.
           </p>
           <div className="flex justify-center">
             <a
@@ -31,13 +31,23 @@ export default function About() {
             </a>
           </div>
         </div>
+
+        <div>
+          <div>
+            <img 
+              className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+              alt="Hiking Pic"
+              src="./images/portfolioPic.JPG"
+            />
+          </div>
+        </div>
         {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./coding.svg"
           />
-        </div> */}
+        </div> no need for this*/}
       </div>
     </section>
   );

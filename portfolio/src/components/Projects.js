@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below are a some of the projects I've worked on during my time at CMU. They consist of work with Object Oriented Programming, 
+            Below are a some of the projects I've worked on during my time at CMU and after graduation. They consist of work with Object Oriented Programming, 
             UI/UX work, expierence with .......
           </p>
         </div>
